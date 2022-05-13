@@ -1,0 +1,37 @@
+---- Quelle: https://www.youtube.com/watch?v=58gAY0cbgek&list=PL3GR0QRmfAgLuQbyoon4bKieLtmAVO0aq&index=35 
+* Wie man eigene Schriftarten einfügt https://fonts.google.com/
+* Manifest für progressive web app erstellt mit https://www.simicart.com/manifest-generator.html/
+Der Inhalt hier icons maifest.webmanifest muss dann in den Hauptordner kopiert werden
+<link rel="manifest" href="manifest.webmanifest"> in den head einfügen
+* Seite veröffentlichen auf https://app.netlify.com/drop in dem mn den gesamten Ordner einfach in die Seite per drag and drop reinzieht
+Man erhält dann einen Link. Öffnet man den Link kann man auf dem Handy im Browser dann "Auf Startseite einfügen" wählen und es öffnet sich dann als eigenständige App.
+* Kostenlose Bilder auf https://pixabay.com/
+
+* Programmierung
+body {
+    font-family: 'Anton', sans-serif;
+    margin: 0; // entfernt den standardmäßig gesetzten Rahmen
+}
+    
+    display: flex; // nuutzt xAchse und yAchse
+    justify-content: flex-end; // sorgt für Ausrichtung auf xAchse
+    align-items: flex-end; // sorgt für Ausrichtung auf yAchse
+    padding: 24px;
+    box-sizing: border-box; // Sorgt dafür, dass das padding nicht zur Vergrößerung des containers führt.
+
+* VS Code Tipps
+- Mit der Einagbe ! und Enter wird ein komplettes html-Gerüst erstellt.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+- Mit Mausklicks bei gehaltener ALT-Taste kann in mehreren Zeilen gleichzeitig geschrieben werden
