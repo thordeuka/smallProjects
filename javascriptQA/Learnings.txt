@@ -1,0 +1,4 @@
+* npm init -y   --> zur initialiserung von npm
+* npm i --save-dev jest  --> um unit test framework jest zu installieren (nur für Entwicklung wichtig daher --save-dev)
+* Anpassung package json von "test": "echo \"Error: no test specified\" && exit 1" zu "test": "jest"
+* Anpassung pacakge.josn von "test": "jest" auf "test": "jest --coverage" um Testabdeckung als Tabele mit anzuzeigen
