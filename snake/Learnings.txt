@@ -1,0 +1,5 @@
+Quelle: https://www.youtube.com/watch?v=niD3gx4BI9A
+* requestAnimationFrame() methode zur animierten wiederholung einer draw function
+* methodenaufbau für spiele
+ - draw()
+ - gameLoop()
